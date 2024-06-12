@@ -10,7 +10,7 @@
 function findLongestString(stringArr) {
   let longestString = stringArr[0];
   for (let str of stringArr) {
-    if ((str.length < longestString.length)) {
+    if (str.length < longestString.length) {
       longestString = str;
     }
   }
