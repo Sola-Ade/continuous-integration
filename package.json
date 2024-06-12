@@ -8,6 +8,7 @@
   },
   "scripts": {
     "lint": "eslint src",
+    "sola-check": "eslint find-shortest-string.js",
     "format": "prettier --write src",
     "format:check": "prettier --check src"
   }
